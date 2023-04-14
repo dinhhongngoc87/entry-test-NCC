@@ -1,0 +1,245 @@
+:root {
+  --content-height: 650px;
+  --footer-height: 70px;
+}
+
+* {
+  box-sizing: inherit;
+}
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (min-width: 1284px) {
+  .container {
+    width: 1400px;
+    height: 734px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (min-width: 1221px) and (max-width: 1283px) {
+  .container {
+    width: 1300px;
+    height: 734px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+}
+@media (min-width: 950px) and (max-width: 1220px) {
+  .container {
+    width: 1080px;
+    height: 734px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+}
+
+@media (min-width: 876px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+  .left {
+  }
+  .sidebar {
+    height: calc(1100px + var(--footer-height));
+    background-color: #191718;
+    color: white;
+  }
+  .sidebar ul {
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  .sidebar ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .right {
+  }
+  .content {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 100px 180px 100px;
+  }
+  .logo {
+  }
+  .paragraph {
+    width: 100%;
+    text-align: center;
+    background-color: #e5e5e5;
+  }
+  .row {
+    display: flex;
+  }
+  .group {
+    margin: 0 15px;
+  }
+  .group img {
+    float: left;
+    width: 100px;
+    margin-right: 15px;
+  }
+  .group p {
+    text-align: justify;
+  }
+
+  .footer {
+    height: var(--footer-height);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+  }
+  .footer p {
+    margin: 0;
+    padding: 0 100px;
+  }
+}
+@media (min-width: 560px) and (max-width: 877px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .left {
+  }
+  .sidebar {
+    height: auto;
+    background-color: #191718;
+    color: white;
+  }
+  .sidebar ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  .sidebar ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .right {
+  }
+  .content {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 180px 10px;
+  }
+  .logo {
+  }
+  .paragraph {
+    width: 100%;
+    text-align: center;
+    background-color: #e5e5e5;
+  }
+  .row {
+    display: flex;
+  }
+  .group {
+    margin: 0 15px;
+  }
+  .group img {
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+  }
+  .group p {
+    text-align: justify;
+  }
+
+  .footer {
+    height: var(--footer-height);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+  }
+  .footer p {
+    margin: 0;
+    padding: 0 100px;
+  }
+}
+@media (max-width: 559px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .left {
+  }
+  .sidebar {
+    height: auto;
+    background-color: #191718;
+    color: white;
+  }
+  .sidebar ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+  }
+  .sidebar ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .right {
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 180px 10px;
+  }
+  .logo {
+  }
+  .paragraph {
+    width: 100%;
+    text-align: center;
+    background-color: #e5e5e5;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .group {
+    margin: 0 15px;
+    text-align: center;
+  }
+  .group img {
+    float: left;
+    width: 25%;
+    margin-right: 15px;
+  }
+  .group p {
+    text-align: justify;
+  }
+
+  .footer {
+    height: var(--footer-height);
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+  }
+  .footer p {
+    margin: 0;
+    padding: 0 100px;
+  }
+}
